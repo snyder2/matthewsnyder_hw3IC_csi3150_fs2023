@@ -1,0 +1,30 @@
+.counterContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 50%;
+  transform: translate(-50%, -50%);
+  border: 5px solid;
+  margin: auto;
+  background-color: rgb(95, 95, 95);
+}
+
+.counter {
+  font-size: 75px;
+  color: white;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 80px;
+  font-size: 50px;
+}
+
+.button {
+  border: solid white 5px;
+  background-color: lightblue;
+  width: 300px;
+  padding: 20px;
+}
